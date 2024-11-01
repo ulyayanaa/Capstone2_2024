@@ -1,0 +1,141 @@
+html {
+    background-color: #dfe7b2;
+    font-family: "Atma", system-ui;
+    letter-spacing: 0.25em;
+    line-height: 2em;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.about_me {
+    margin: 3% 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px dashed #b044a0;
+    box-shadow: 0 0 10px 1px #8c7ce7;
+    border-radius: 25%;
+    padding: 30px;
+}
+
+.edu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5% 20px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3% 20px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5% 20px;
+}
+
+.awards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3% 20px;
+}
+
+.arr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+    margin: 2% 50px;
+    color: #b044a0;
+}
+
+.hr-grad {
+    /* transform: rotate(90deg); */
+    margin: 20px 0;
+    padding: 0;
+    height: 990px;
+    border: none;
+    box-shadow: 0 0 10px 1px #988fcb;
+
+}
+
+.markers {
+    margin: 0 0 20px 24px;
+    padding: 0;
+    list-style-type: "⚡ ";
+    color: #0ba1bb;
+}
+
+.markers li {
+    margin: 7px 0;
+    font-size: 14px;
+}
+
+.mainText {
+    color: #8c7ce7;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+
+    html {
+        background-color: #001224;
+        font-family: "Atma", system-ui;
+        letter-spacing: 0.25em;
+        line-height: 2em;
+
+    }
+
+    .container {
+        display: block;
+        /* justify-content: center; */
+    }
+
+    .about_me,
+    .edu,
+    .work,
+    .skills,
+    .awards {
+        border: none;
+        box-shadow: none;
+        align-items: start;
+    }
+
+    .about_me {
+        color: azure;
+    }
+
+    .hr-grad {
+        height: auto;
+    }
+
+    .arr {
+        align-items: start;
+        margin: 5% 0;
+        color: #b044a0;
+    }
+
+    .myImg {
+
+        margin: 30px 0;
+
+    }
+
+    .arr:hover {
+        color: #b899b3;
+    }
+}
